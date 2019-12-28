@@ -1,0 +1,32 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 8,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"ecmaVersion": 8,
+			"jsx": true
+		}
+	},
+	"rules": {
+		"strict": 0,
+		"semi": "off",
+		"react/prop-types": "off",
+		"no-console": "off",
+		"no-unused-vars": "off",
+		"no-useless-escape": "off",
+		"no-mixed-spaces-and-tabs": "off",
+		"no-undef": "off"
+	},
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"parser": "babel-eslint",
+	"extends": ["airbnb", "prettier", "eslint:recommended", "plugin:react/recommended"],
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"plugins": ["prettier"]
+}
